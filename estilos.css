@@ -1,0 +1,116 @@
+body{
+background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(./img/merca.jpg);
+image-rendering: auto;
+image-resolution: 50px;
+background-position: center center;
+background-size: cover;
+background-attachment: fixed;
+color: lightgrey;
+font-family: Arial, Helvetica, sans-serif;
+align-items: center;
+display: flexbox;
+justify-content: center;
+
+}
+div{
+    text-align: center;
+}
+.titulo{
+    font-size: 80px;
+}
+.parr{
+    font-size: 35px;
+    width: 1100px;
+
+}
+.padre{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.lineal{
+    display: inline-flex;
+    /* display: inline; */
+    
+
+}
+
+#logos{
+    padding-top: 400px;
+}
+.lineal a img{
+    width: 48px;
+    display: inline;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+#magia{
+    display: flex;
+    gap: 150px;
+    list-style: none;
+
+}
+header{
+    display: flex;
+    justify-content: center;
+}
+#magia li:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+    transition: 0.8s;
+}
+.boton{
+    border-radius: 200px;
+    padding: 9px 25px;
+    color: white;
+    border: 1px white solid;
+    list-style: none;
+
+}
+.skills{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+}
+.tamanio img{
+    width: 70px;
+    
+}
+#p{
+    font-size: 70px;
+    text-decoration: underline ;
+}
+.tamanio img:hover{
+    transform: scale(1.5);
+    transition: 0.7s;
+    
+}
+.tamanio{
+    gap: 18px;
+
+}
+.estudios{
+    list-style: none;
+    padding: 0px;
+    justify-content: center;
+    text-indent: 0;
+    font-size: 40px;
+}
+#est{
+    font-size: 70px;
+    text-decoration: underline;
+    
+}
+.exp{
+    font-size: 70px;
+    text-decoration: underline;
+}
+.exp2{
+    font-size: 40px;
+    list-style: none;
+}
+.lineal a:hover{
+    transform: scale(1.5);
+    transition: 0,5s;
+}
